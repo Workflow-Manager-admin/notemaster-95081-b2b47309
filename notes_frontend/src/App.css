@@ -1,14 +1,20 @@
 /* CSS Variables for Theme Management */
 :root {
-  /* Light theme colors */
+  /* Brand/Feature colors for NoteMaster */
+  --primary: #1976D2;
+  --secondary: #424242;
+  --accent: #FF9800;
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
+  --sidebar-bg: #f8f9fa;
+  --main-bg: #fafbff;
   --text-primary: #282c34;
-  --text-secondary: #61dafb;
-  --border-color: #e9ecef;
-  --button-bg: #007bff;
+  --text-secondary: #515151;
+  --border-color: #e0e0e0;
+  --button-bg: var(--primary);
   --button-text: #ffffff;
 }
+
 
 [data-theme="dark"] {
   /* Dark theme colors */
